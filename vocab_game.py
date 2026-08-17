@@ -101,6 +101,6 @@ if st.session_state.get("is_ended", False):
     show_result_dialog(ans1, ans2)
 
 st.divider()
-st.write("นางสาวดีใจ ยิ้มแย้ม เลขที่ 5 ม.4/5")
+st.write("นางสาวศุภมาศ อยู่สิงห์ เลขที่ 35 ม.4/3")
 
 
