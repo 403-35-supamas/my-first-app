@@ -9,13 +9,13 @@ weight = st.number_input("กรอกน้ำหนักของคุณ (�
 height = st.number_input("กรอกน้ำส่วนสูงของคุณ (เซนติเมตร):", min_value=1.0)
 
 #ส่วนที่ 3 สร้างปุ่มกดคำนวณ
- if st.button("คำนวณค่า BMI💡"):
-  # แปลงส่วนสูงจาก cm เป็น เมตร และคำนวณ BMI
-  height_m = height_cm / 100
-  bmi = wight / (height_m ** 2)
+if st.button("คำนวณค่า BMI💡"):
+ # แปลงส่วนสูงจาก cm เป็น เมตร และคำนวณ BMI
+ height_m = height_cm / 100
+ bmi = wight / (height_m ** 2)
 
-   st.write("---")
-   st.header(f"ค่า BMI ของคุณคือ: **{bmi:.2f}**")
+  st.write("---")
+  st.header(f"ค่า BMI ของคุณคือ: **{bmi:.2f}**")
 
 #ส่วนที่ 4 แปลผลค่า bmi ตามเกณฑ์
 if bmi < 18.5:
