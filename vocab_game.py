@@ -105,7 +105,7 @@ ans3 = st.text_input(
     value=st.session_state.ans3_val,
 )
 ans4 = st.text_input(
-    "ข้อ 4: If you can't see, you should wear `_ l _ _ e s`.",
+    "ข้อ 4: If you can't see, you should wear `_ l _ _ _ e s`.",
     value=st.session_state.ans4_val,
 )
 
