@@ -14,8 +14,8 @@ if st.button("คำนวณค่า BMI💡"):
  height_m = height_cm / 100
  bmi = wight / (height_m ** 2)
 
-  st.write("---")
-  st.header(f"ค่า BMI ของคุณคือ: **{bmi:.2f}**")
+ st.write("---")
+ st.header(f"ค่า BMI ของคุณคือ: **{bmi:.2f}**")
 
 #ส่วนที่ 4 แปลผลค่า bmi ตามเกณฑ์
 if bmi < 18.5:
